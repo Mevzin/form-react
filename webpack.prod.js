@@ -47,9 +47,6 @@ module.exports = merge( common, {
     }),
     new MiniCssExtractPlugin({
       filename: 'main-bundle-[hash].css'
-    }),
-    new FaviconsWebpackPlugin({
-      logo: './public/favicon.jpeg'
     })
   ]
 })
